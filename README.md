@@ -83,9 +83,30 @@ You can print value of Argument here...
 
 ![pct10](https://user-images.githubusercontent.com/115356128/208436147-4609546d-ca7f-4524-ad97-63c029675246.png)
 
+#### Meningkatkan Pengecualian
+Anda dapat meningkatkan pengecualian dalam beberapa cara dengan menggunakan pernyataan kenaikan penyataan. 
+  Sintaks umum untuk pernyataan kenaikan adalah sebagai berikut:
+```
+raise [Exception [, args [, traceback]]]
+```
 
+#### Contoh
+![pct11](https://user-images.githubusercontent.com/115356128/208437412-6f09c474-f33b-4f17-baba-18570a3bc876.png)
 
+![pct12](https://user-images.githubusercontent.com/115356128/208437434-318c03ac-d246-4853-bb0b-a198d16a0e7a.png)
 
+#### Pengecualian Buatan Pengguna
+Python juga memungkinkan Anda untuk membuat pengecualian Anda sendiri dengan menurunkan kelas turunan dari standar pengecualian bawaan. Di blok coba, pengecualian yang ditentukan pengguna yang ditentukan pengguna dimunculkan dan ditangkap di blok kecuali. Itu variabel e digunakan untuk membuat turunan dari kelas Networkerror.
+```
+class Networkerror(RuntimeError):
+def __init__(self, arg):
+self.args = arg
+```
+
+#### Contoh
+![pct13](https://user-images.githubusercontent.com/115356128/208438452-bb5fd015-c3b8-4470-8438-dc77ff451dfc.png)
+
+![pct14](https://user-images.githubusercontent.com/115356128/208438475-b3e7d65c-464e-447f-a58b-982949037933.png)
 
 
 
