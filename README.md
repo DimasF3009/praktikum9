@@ -69,6 +69,21 @@ If there is no exception then execute this block.
 
 ![pct8](https://user-images.githubusercontent.com/115356128/208434603-9e3660a0-a044-437d-aff1-e805c271051b.png)
 
+## Argumen Pengecualian
+Pengecualian dapat memiliki argumen, yang merupakan nilai yang memberikan tambahan informasi tentang masalah. Isi argumen bervariasi berdasarkan pengecualian. Anda menangkap menangkap argumen pengecualian dengan menyediakan variabel dalam klausa kecuali sebagai berikut
+```
+try:
+You do your operations here;
+......................
+except ExceptionType, Argument:
+You can print value of Argument here...
+```
+#### contoh 
+![pct9](https://user-images.githubusercontent.com/115356128/208436116-ff9530c4-47e7-4d9c-a6bd-c48961b96bc7.png)
+
+![pct10](https://user-images.githubusercontent.com/115356128/208436147-4609546d-ca7f-4524-ad97-63c029675246.png)
+
+
 
 
 
