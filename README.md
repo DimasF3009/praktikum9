@@ -13,3 +13,11 @@ Saat menemukan pernyataan, Python mengevaluasi ekspresi yang menyertainya, yaitu
 ```
 assert Expression[, Arguments]
 ```
+#### Contoh
+1. Berikut adalah fungsi yang mengubah mengubah suhu dari derajat Kelvin ke derajat Fahrenheit.
+2. Ketika kode di atas dijalankan, menghasilkan hasil sebagai berikut
+
+![pct1](https://user-images.githubusercontent.com/115356128/208431343-15325338-ea09-41f4-a981-7a337ca2d573.png)
+
+![pct2](https://user-images.githubusercontent.com/115356128/208431421-80dd4de4-d821-4320-aad9-46162b637311.png)
+
